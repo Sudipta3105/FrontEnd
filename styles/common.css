@@ -1,0 +1,25 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+
+.full-width-div {
+    position: absolute;
+    width: 100%;
+    overflow: scroll;
+}
+
+
+.image-logo {
+    height: 60px;
+    width: 60px;
+    vertical-align: down;
+    border-radius: 50%;
+}
+
+.image-social-site {
+    height: 20px;
+    width: 22px;
+  }
