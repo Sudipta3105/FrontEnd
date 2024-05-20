@@ -1,3 +1,41 @@
+html {
+  margin: 0;
+}
+
+header {
+  background-color: rosybrown;
+}
+
+footer {
+  bottom:  0px;
+  width: 100%;
+  background-color: rosybrown;
+}
+
+body {
+  margin: 0;
+  background-color: #e0e0e0;
+}
+
+.hotel-view {
+  margin-top: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.booking-view {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 1%;
+}
+
+.hotel-description {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
 .image-city {
   height: 500px;
   width: 500px;

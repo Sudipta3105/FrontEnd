@@ -1,4 +1,32 @@
+html {
+    margin: 0;
+}
+
+header {
+    background-color: rosybrown;
+}
+
+footer {
+    bottom:  0px;
+    width: 100%;
+    background-color: rosybrown;
+}
+
+body {
+    margin: 0;
+    background-color: #e0e0e0;
+}
+
+  .content {
+    margin: 2%;
+  }
+
 .image-city {
     height: 250px;
     width: 250px;
+}
+
+.hotel-view {
+    background-color: rgb(132,136,139);
+    width: 40%;
 }
