@@ -1,5 +1,6 @@
 html {
     margin: 0;
+    font-family:'Ubuntu', sans-serif;  
 }
 
 header {
@@ -10,6 +11,7 @@ footer {
     bottom:  0px;
     width: 100%;
     background-color: rosybrown;
+    position: fixed;
 }
 
 body {
@@ -17,9 +19,14 @@ body {
     background-color: #e0e0e0;
 }
 
-  .content {
+a { 
+    color: black; 
+    text-decoration: none; 
+} 
+
+.content {
     margin: 2%;
-  }
+}
 
 .image-city {
     height: 250px;
@@ -29,4 +36,26 @@ body {
 .hotel-view {
     background-color: rgb(132,136,139);
     width: 40%;
+}
+
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.li-items {
+    justify-content: center; 
+    vertical-align: top;
+}
+
+.li-alignment{
+    display: flex;
+    justify-content: center;
+}
+
+.map-view {
+    display: none;
+
 }

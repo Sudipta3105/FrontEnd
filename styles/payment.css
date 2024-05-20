@@ -1,5 +1,6 @@
 html {
     margin: 0;
+    font-family:'Ubuntu', sans-serif;  
   }
   
   header {
@@ -10,11 +11,17 @@ html {
     bottom:  0px;
     width: 100%;
     background-color: rosybrown;
+    position: fixed;
   }
   
   body {
     margin: 0;
     background-color: #e0e0e0;
+  }
+
+  a { 
+    color: black; 
+    text-decoration: none; 
   }
 
 .image-city {
@@ -46,5 +53,10 @@ html {
     padding-right: 2%;
     padding-top: 1%;
     padding-bottom: 1%;
+
+}
+
+.pay-now {
+  margin-bottom: 5%;
 
 }

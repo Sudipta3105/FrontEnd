@@ -1,5 +1,7 @@
 html {
   margin: 0;
+  font: ubuntu;
+  font-family:'Ubuntu', sans-serif;  
 }
 
 header {
@@ -15,7 +17,13 @@ footer {
   bottom:  0px;
   width: 100%;
   background-color: rosybrown;
+  position: fixed;
 }
+
+a { 
+  color: black; 
+  text-decoration: none; 
+}  
 
 .search-bar {
   background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
@@ -23,7 +31,33 @@ footer {
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center;
+  background-color:  #f1f1f1;
 }
+
+.search {
+  width: 20%;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  padding: 10px;
+  font-size: 16px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login {
+  float: right;
+  /* Use a flexbox layout */
+	display: flex;
+	
+	/* Make a horizontal flexbox (the default) */
+	flex-direction: row;
+	
+	/* The important part: vertically center the items */
+	align-items: center;
+}
+
 
 
 .column-city {
@@ -40,4 +74,28 @@ footer {
 
 .view-more {
   margin-right: 0;  
+  display: flex;
+  justify-content: center;
+}
+
+.trademark {
+  /* Use a flexbox layout */
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-us {
+    /* Use a flexbox layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+
+
+.image-social-site-position {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
 }

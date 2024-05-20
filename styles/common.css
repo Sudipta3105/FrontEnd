@@ -3,6 +3,7 @@ html, body {
     height: 100%;
     width: 100%;
     overflow: scroll;
+    font-family:'Ubuntu', sans-serif;  
 }
 
 .full-width-div {
@@ -15,7 +16,6 @@ html, body {
 .image-logo {
     height: 60px;
     width: 60px;
-    vertical-align: down;
     border-radius: 50%;
 }
 
@@ -23,3 +23,25 @@ html, body {
     height: 20px;
     width: 22px;
   }
+  
+.trademark {
+    /* Use a flexbox layout */
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+  
+.contact-us {
+      /* Use a flexbox layout */
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+  
+}
+  
+  
+.image-social-site-position {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+} 

@@ -1,5 +1,6 @@
 html {
   margin: 0;
+  font-family:'Ubuntu', sans-serif;  
 }
 
 header {
@@ -10,12 +11,18 @@ footer {
   bottom:  0px;
   width: 100%;
   background-color: rosybrown;
+  position: fixed;
 }
 
 body {
   margin: 0;
   background-color: #e0e0e0;
 }
+
+a { 
+  color: black; 
+  text-decoration: none; 
+} 
 
 .hotel-view {
   margin-top: 2%;
