@@ -4,21 +4,11 @@ html {
   font-family:'Ubuntu', sans-serif;  
 }
 
-header {
-  background-color: rosybrown;
-}
-
 body {
   margin:0;
   background-color: #e0e0e0;
 }
 
-footer {
-  bottom:  0px;
-  width: 100%;
-  background-color: rosybrown;
-  position: fixed;
-}
 
 a { 
   color: black; 
@@ -37,32 +27,23 @@ a {
 .search {
   width: 20%;
   border-radius: 12px;
-  border: 1px solid transparent;
+  border: 0px solid transparent;
   padding: 10px;
   font-size: 16px;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  outline: none;
 }
-
-.login {
-  float: right;
-  /* Use a flexbox layout */
-	display: flex;
-	
-	/* Make a horizontal flexbox (the default) */
-	flex-direction: row;
-	
-	/* The important part: vertically center the items */
-	align-items: center;
-}
-
-
 
 .column-city {
-  margin-left: 15%;
-  margin-right: 15%; 
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .image-city {
@@ -78,24 +59,88 @@ a {
   justify-content: center;
 }
 
-.trademark {
-  /* Use a flexbox layout */
-  font-size: 10px;
-  display: flex;
-  justify-content: center;
+.hover-div0 {
+  position: relative;
 }
 
-.contact-us {
-    /* Use a flexbox layout */
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+.hover-div0::after {
+  content: "Delhi";
+  color: #f1f1f1;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  
+}
+
+.hover-div0:hover::after {
+  visibility: visible;
+  opacity: 1;
 
 }
 
 
-.image-social-site-position {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
+.hover-div1 {
+  position: relative;
+}
+
+.hover-div1::after {
+  content: "Goa";
+  color: #f1f1f1;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hover-div1:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+.hover-div2 {
+  position: relative;
+}
+
+.hover-div2::after {
+  content: "Hyderabad";
+  color: #f1f1f1;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hover-div2:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.hover-div3 {
+  position: relative;
+}
+
+.hover-div3::after {
+  content: "Kolkata";
+  color: #f1f1f1;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hover-div3:hover::after {
+  visibility: visible;
+  opacity: 1;
 }

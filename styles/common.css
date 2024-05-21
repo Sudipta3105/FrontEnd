@@ -1,10 +1,17 @@
-
 html, body {
     height: 100%;
     width: 100%;
     overflow: scroll;
     font-family:'Ubuntu', sans-serif;  
+    background-color: #e0e0e0;
 }
+
+#container {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+    
 
 .full-width-div {
     position: absolute;
@@ -17,31 +24,69 @@ html, body {
     height: 60px;
     width: 60px;
     border-radius: 50%;
+    margin-left: 1%;
 }
 
 .image-social-site {
     height: 20px;
     width: 22px;
+    margin-right: 2%;
   }
   
-.trademark {
-    /* Use a flexbox layout */
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-}
-  
-.contact-us {
-      /* Use a flexbox layout */
-      display: flex;
-      flex-direction: row;
-      justify-content: left;
-  
-}
-  
-  
+
 .image-social-site-position {
     display: flex;
     flex-direction: row;
     justify-content: right;
 } 
+
+header {
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    bottom:  0px;
+    width: 100%;
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: column;
+}
+
+.trademark {
+    /* Use a flexbox layout */
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+.contact-us {
+    /* Use a flexbox layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 2%;
+    padding: 4px 0;
+    text-align: center;
+}
+  
+.login {
+    float: right;
+    /* Use a flexbox layout */
+      display: flex;
+      
+      /* Make a horizontal flexbox (the default) */
+      flex-direction: row;
+      
+      /* The important part: vertically center the items */
+      align-items: center;
+      margin-right: 2%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column; 
+}
+  
+  
